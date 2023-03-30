@@ -1,0 +1,37 @@
+div.cabecera {line-height: 5px; background-image: url("/home/alumnado/Descargas/imagenes/cabecera.jpg"); height: 150px; width: 1197px; margin-left: 40px; margin-top: -8px}
+
+h4 {margin-left: 70px}
+
+h1 {margin-left: 40px}
+
+form {margin-top: 50px; margin-left: 900px}
+
+li{float: left; width: 19%; border: solid; list-style: none; text-align: center; border-width: 1px; height: 35px; background-color: black; color: white; border-color: black; text-decoration: none; margin-top: -16px}
+
+li:hover{color: red; background-color: white}
+
+ol {margin-left: 300px; width: 1565px; margin-left: 0px;}
+
+div.footer {border: solid; border-width: 1px; margin-top: 24px; width: 1195px; margin-left: 40px; border-radius: 15px}
+
+div.articulo {border: solid; border-width: 1px; margin-left: 10px; margin-top: 20px; margin-right: 10px; border-radius: 15px; height: 270px; margin-bottom: 10px;}
+
+html {background-color: burlywood}
+
+h2 {margin-left: 10px; position: absolute; margin-top: -250px; margin-left: 465px; margin-right: 45px}
+
+h3 {position: absolute; margin-top: -190px; margin-left: 465px; margin-right: 47px}
+
+img {height: 250px; position: relative; margin-top: 10px; margin-left: 10px; border-radius: 5px}
+
+p.noticia {position: absolute; margin-top: -150px; margin-left: 465px; margin-right: 50px; font-size: large}
+
+div.articulo2 {border: solid; border-width: 1px; margin-left: 10px; margin-top: 10px; margin-right: 10px; border-radius: 15px; height: 270px; margin-bottom: 10px}
+
+p.noticia2 {position: absolute; margin-top: -125px; margin-left: 465px; margin-right: 50px; font-size: large}
+
+h3.noticia1 { margin-top: -210px;}
+
+p.texto {text-align: center; font-size: large; font-weight: bolder; margin-top: 80px;}
+
+p.texto2 {text-align: center; font-size: larger; font-weight: bolder; margin-top: 25px; font-style: italic;}
