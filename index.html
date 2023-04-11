@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en-US">
 
     <head>
-
+        
+        <meta charset="utf-8">
+        <title>Paginaweb</title>
         <div class="cabecera">
 
             <br>
@@ -66,8 +68,30 @@
             </div>
 
         </div>
+        
+        <br>
+        <br>
+
+        <p class="name">Este botón cambia el color del fondo</p>
+
+		<button onclick="changeBackground('cyan')" class="cyan">Cyan</button>
+		<button onclick="changeBackground('yellow')" class="yellow">Yellow</button>
+		<button onclick="changeBackground('purple')" class="purple">Purple</button>
+		<script text="text-javascript">
+				const name = document.querySelector(".name");
+				function changeBackground(colorfondo) {
+						document.body.style.backgroundColor = colorfondo;
+						if (colorfondo == "cyan"){
+							alert("Seleccionado cyan");
+						}
+						else
+							if (colorfondo=="yellow")
+								alert("Seleccionado amarillo");
+							else
+								alert("Seleccionado morado")
+				}	
+		</script>
 
     </footer>
     
 </html>
-    
